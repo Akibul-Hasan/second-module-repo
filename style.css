@@ -144,3 +144,92 @@ footer span{
 color: #564242}
 
 
+/* ---------------
+    media query
+----------------- */
+
+/* mobile device */
+
+@media only screen and (max-width:688px)
+{
+    .container{
+    width: 100%;
+    }
+    .top-headers{
+    flex-direction: column;
+    }
+    .top-headers img{width: 100%;}
+    .pack-boxs{
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .foot-contents{
+        flex-direction: column;
+    }
+}
+
+
+
+/* Ipad like device */
+
+@media only screen and (min-width:688px) and (max-width:992px)
+{
+    .container{
+    width: 100%;
+    }
+    .top-headers{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-headers img{width: 100%;}
+
+    .pack-boxs{
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .foot-contents{
+        flex-direction: column;
+    }
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*     
+    
+    .player, .blog, .course {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{max-width: 100%;}
+
+    .players, .blogs, .couses{
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog, .course {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+}
+        
+         */
+
