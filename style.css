@@ -47,6 +47,12 @@ color:white;}
 .head img{
     width: 440px;
     height: 414px;
+    transition: all 0.5s;
+}
+
+.head:hover img{
+    transform: translate(50px);
+   
 }
 
 
@@ -65,10 +71,16 @@ color:white;}
     padding: 10px;
     border-radius: 10px;
 }
-
-.box img{
+/* animation */
+.boxs img{
     width: 329px;
     height: 476px;
+    transition: all 0.5s;             
+}
+
+.boxs:hover img{
+    transform:scale(0.9);
+    box-shadow: 0px 0px 20px 20px #d1a0a0;
 }
 
 .box-detail h3{
