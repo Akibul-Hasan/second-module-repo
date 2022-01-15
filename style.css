@@ -61,6 +61,14 @@ color:white;}
         Main Grid Section
 ---------------------------------*/
 
+.header-box h2{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
 .pack-boxs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -119,11 +127,12 @@ margin: 5px 0;
 
 .Grid-btn a{
     text-decoration: none;
-    color: tomato;
+    color: #E02C6D;
+    font-weight: 800;
 }
 .Grid-btn i{
     
-    color: tomato;
+    color: #E02C6D;
 }
 
 
@@ -211,7 +220,7 @@ color: #564242}
     flex-direction: column;
     }
     .top-headers img{width: 100%;}
-    .pack-boxs{
+    .pack-boxs, .Other-facility{
     grid-template-columns: repeat(1, 1fr);
     }
     .foot-contents{
@@ -235,12 +244,12 @@ color: #564242}
     }
     .top-headers img{width: 100%;}
 
-    .pack-boxs{
+    .pack-boxs, .Other-facility{
     grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
     }
-    .foot-contents{
-        flex-direction: column;
-    }
+    .Other-facility{grid-gap: 10px;}
+    
     
 }
     
